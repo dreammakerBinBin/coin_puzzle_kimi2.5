@@ -55,7 +55,6 @@ function App() {
         <button type="button"
           className="btn-primary"
           onClick={() => advanceToNextStep()}
-          disabled={!currentWeighing || (currentWeighing.leftSide.length === 0 && currentWeighing.rightSide.length === 0)}
         >
           开始第一次称量
           <ChevronRight className="w-4 h-4 ml-2" />
